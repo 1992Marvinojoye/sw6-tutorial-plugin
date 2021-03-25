@@ -1,0 +1,33 @@
+{
+  "name": "bow/tut-plugin",
+  "description": "BOW Tutorial Plugin",
+  "version": "v0.1.0",
+  "type": "shopware-platform-plugin",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "BOW - Bayerisches Onlinewerk",
+      "homepage": "https://bow-agentur.de",
+      "role": "Manufacturer"
+    }
+  ],
+  "require": {
+    "shopware/core": "6.3.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Bow\\BowTutPlugin\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "Bow\\BowTutPlugin\\BowTutPlugin",
+    "manufacturerLink": {
+      "de-DE": "https://bow-agentur.de",
+      "en-GB": "https://bow-agentur.de"
+    },
+    "label": {
+      "de-DE": "BOW Tutorial Plugin",
+      "en-GB": "BOW Tutorial Plugin"
+    }
+  }
+}

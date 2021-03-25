@@ -1,0 +1,30 @@
+.tut-footer {
+  background-color: rgba(0,0,0,.8);
+  color: #eee;
+  max-width: 720px;
+  padding: 4px 8px;
+  margin: 8px auto;
+  transition: transform .5s ease-in-out;
+  cursor: pointer;
+
+  &.active {
+    transform: rotateZ(180deg);
+  }
+}
+
+.cms-block-text-image-bow-tut-box {
+  .bow-tut-box-block {
+    margin: 0 auto;
+    border: 1px solid #666;
+    border-radius: 4px;
+
+    .cms-element-bow-tut-box-image img {
+      border-radius: 4px 4px 0 0;
+    }
+
+    .cms-element-bow-tut-box-subtitle {
+      text-align: center;
+      padding: 8px 0;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "sw-cms": {
+    "blocks": {
+      "textImage": {
+        "bowTutBox": {
+          "label": "BOW Tutorial Box"
+        }
+      }
+    }
+  }
+}
