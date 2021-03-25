@@ -6,3 +6,5 @@ use Shopware\Core\Framework\Plugin;
 
 class BowTutPlugin extends Plugin {
 }
+
+kk
